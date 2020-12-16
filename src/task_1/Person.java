@@ -1,3 +1,5 @@
+package task_1;
+
 public class Person {
     String firstName;
     String lastName;
@@ -43,7 +45,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "task_1.Person{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", middleName='" + middleName + '\'' +
@@ -53,12 +55,5 @@ public class Person {
                 ", age=" + age +
                 ", gender='" + gender + '\'' +
                 '}';
-    }
-
-    public static void main(String[] args) {
-        Person person = new Person();
-        System.out.println(person);
-        person.firstName("ololo").middleName("pisch-pisch").lastName("Udaff");
-        System.out.println(person);
     }
 }
