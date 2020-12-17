@@ -5,7 +5,7 @@ import task_2.car_abilities.Stoppable;
 import task_2.spare_parts.Engine;
 
 public abstract class Car implements Movable, Stoppable {
-    public Engine engine;
+    private Engine engine;
     private String color;
     private String name;
 
